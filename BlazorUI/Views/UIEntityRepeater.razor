@@ -1,0 +1,9 @@
+﻿@typeparam TEntity
+
+@if(this.Entities != null)
+{
+    @foreach(var item in this.Entities)
+    {
+        @this.Entity(item)
+    }
+}

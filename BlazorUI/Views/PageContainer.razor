@@ -1,0 +1,56 @@
+﻿
+<main>
+    <p id="ToggleSidebar" class="ModalMenuButtonContainer toggle-btn LARGE" @onclick="MenuState.ToggleNavMenu">
+        <button class="NavigationMenuButton">
+            <span class="icon-bar A"></span>
+            <span class="icon-bar A"></span>
+            <span class="icon-bar A"></span>
+        </button>
+    </p>
+
+    <HomeButton />
+
+    <div id="sidebar" class="sidebar_container sidebar @MenuState.SidebarCss" role="navigation" @onclick="MenuState.ToggleNavMenu">
+
+        @for(int i = 0; i < this.NavLinks.Count(); i++)
+        {
+            var count = i;
+
+            <div class="nav_link">
+                <NavLink href="@this.NavLinks[count].Route" class="nav-link NavLink">
+                    @this.NavLinks[count].Link
+                </NavLink>
+            </div>
+        }
+
+    </div>
+
+    <div class="@MenuState.MenuMainCSS">
+        <div>@this.ChildContent</div>
+    </div>
+
+    @*<div>
+        <div class="window_size_container">
+            <h1 class="window_stats">addEventListener('resize', onWindowSizeHandle)</h1>
+            <h4 class="window_stats">document.querySelector('.width') & document.querySelector('.height')</h4>
+            <span class="info_container">Width: <span class="width"></span></span><br />
+            <span class="info_container">Height: <span class="height"></span></span><br />
+
+            <br />
+            <span class="info_container">Window inner width: <span id="window_inner_width"></span></span><br />
+            <span class="info_container">Window inner height: <span id="window_inner_height"></span></span><br />
+
+            <br />
+            <h4>Should read from sesized above...</h4>
+            <span class="info_container">inner width: <span id="inner_width"></span></span><br />
+            <span class="info_container">inner height: <span id="inner_height"></span></span><br />
+
+            <br />
+            <h1 class="window_stats">The Returned Width & Height</h1>
+            <h4>Using Complex Type Parameter</h4>
+            <p>Inner Width @this.BrowserDimensionParameter.Width</p>
+            <p>Inner Height @this.BrowserDimensionParameter.Height</p>
+        </div>
+    </div>*@
+
+</main>

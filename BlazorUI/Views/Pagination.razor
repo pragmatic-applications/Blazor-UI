@@ -1,0 +1,11 @@
+﻿
+<nav aria-label="Page navigation">
+    <ul class="pagination justify-content-center">
+        @foreach(var link in this.links)
+        {
+            <li @onclick="() => this.SelectPageHandler(link)" class="page_item @(link.IsCursorPointer ? "cursor_pointer" : null) @(link.Enabled ? null : "disabled") @(link.Active ? "active" : null)">
+                <span class="page_link" href="#">@link.Text</span>
+            </li>
+        }
+    </ul>
+</nav>

@@ -1,0 +1,419 @@
+﻿
+#NavbarStripSmall
+{
+    display: block;
+    z-index: 100;
+}
+
+#NavbarStripSmall span
+{
+    display: block;
+    padding-top: 15px;
+    border: none;
+    color: #FFF;
+    z-index: 100;
+}
+
+@media(min-width: 768px)
+{
+    #NavbarStripSmall
+    {
+        display: none;
+    }
+}
+
+.NavBG
+{
+    background-color: #0e3f6f;
+}
+
+#sidebar
+{
+    display: block;
+    position: fixed;
+    background-color: rgba(9, 35, 66, 0.1);
+    left: -200px;
+    top: 60px;
+    width: 200px;
+    height: 500px;
+    overflow: auto;
+    z-index: 200;
+    transition: all 500ms;
+}
+
+#sidebar.active
+{
+    left: 0;
+}
+
+#sidebar.close
+{
+    left: -200px;
+}
+
+@media(min-width: 768px)
+{
+    #sidebar
+    {
+        display: block;
+        z-index: 1000;
+    }
+}
+
+.icon-bar
+{
+    display: block;
+    width: 22px;
+    height: 2px;
+    margin: 5px 0;
+}
+
+.icon-bar + .icon-bar
+{
+    margin-top: 4px;
+}
+
+.icon-bar.A
+{
+    background-color: #FFF;
+}
+
+.icon-bar.B
+{
+    background-color: #FFF;
+}
+
+#ToggleSidebar
+{
+    display: block;
+    z-index: 1000;
+}
+
+.HideOrShow
+{
+    display: none;
+}
+
+
+@media(min-width: 768px)
+{
+    .HideOrShow
+    {
+        display: block;
+    }
+}
+
+.NavLink
+{
+    color: #FFF;
+    text-decoration: none;
+    outline: none;
+}
+
+.nav > li.NavLarge
+{
+    display: inline-block;
+}
+
+.NavLarge.NavLink
+{
+    margin: 10px auto;
+    padding: 5px;
+    background-color: #245288;
+    color: #FFF;
+    text-decoration: none;
+    outline: none;
+}
+
+.NavLarge.NavLink:hover,
+.NavLarge.NavLink .NavLink:hover
+{
+    background-color: #3569a7;
+    color: #FFF;
+    text-decoration: none;
+    outline: none;
+}
+
+.MenuSide.Close
+{
+    width: 0;
+}
+
+.MenuSide
+{
+    width: 0;
+    left: -200px;
+    background-color: rgba(36, 82, 136, 0);
+    color: #FFF;
+    z-index: 9999;
+}
+
+.MenuSide.Open
+{
+    left: 0;
+    width: 100%;
+    color: #FFF;
+    z-index: 9999;
+    transition: all 300ms;
+}
+
+@media(min-width: 480px)
+{
+    .MenuSide.Open
+    {
+        left: 0;
+        width: 35%;
+        transition: all 300ms;
+    }
+}
+
+@media(min-width: 900px)
+{
+    .MenuSide.Open
+    {
+        left: 0;
+        width: 20%;
+        transition: all 300ms;
+    }
+}
+
+@media(min-width: 1024px)
+{
+    .MenuSide.Open
+    {
+        left: 0;
+        width: 15%;
+        transition: all 300ms;
+    }
+}
+
+.MenuMain
+{
+    width: 100%;
+}
+
+.MenuMain.Minus
+{
+    width: 100%;
+}
+
+@media(min-width: 480px)
+{
+    .MenuMain.Minus
+    {
+        width: 65%;
+        transition: all 300ms;
+    }
+}
+
+@media(min-width: 900px)
+{
+    .MenuMain.Minus
+    {
+        width: 80%;
+        transition: all 300ms;
+    }
+}
+
+@media(min-width: 1024px)
+{
+    .MenuMain.Minus
+    {
+        width: 85%;
+        transition: all 300ms;
+    }
+}
+
+.NavbarCustom
+{
+    background-color: #e3f2fd;
+}
+
+.MenuCenter
+{
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*nnnnnnnnnnnnnnn*/
+/*May not need*/
+.ModalMenuButton
+{
+    display: block;
+    position: fixed;
+    top: 12px;
+    top: 8px;
+    left: 10px;
+    padding: 14px 8px;
+    background-color: #092342;
+    color: #FFF;
+    border: none;
+    text-decoration: none;
+    outline: none;
+    z-index: 999999999999999;
+    border-radius: 12px;
+}
+
+.ModalMenuButton:active,
+.ModalMenuButton:focus,
+.ModalMenuButton:hover
+{
+    top: 10px;
+    border: none;
+    background-color: #3569a7;
+    color: #FFF;
+    text-decoration: none;
+    outline: none;
+}
+
+@media (min-width: 768px)
+{
+    .ModalMenuButton
+    {
+        display: none;
+    }
+}
+
+.NavigationMenuButton
+{
+    display: block;
+    position: fixed;
+    top: 8px;
+    left: 10px;
+    padding: 14px 8px;
+    background-color: #092342;
+    color: #FFF;
+    border: none;
+    text-decoration: none;
+    outline: none;
+    z-index: 999999999999999;
+    border-radius: 12px;
+}
+
+.NavigationMenuButton:active,
+.NavigationMenuButton:focus,
+.NavigationMenuButton:hover
+{
+    top: 10px;
+    border: none;
+    background-color: #3569a7;
+    color: #FFF;
+    text-decoration: none;
+    outline: none;
+}
+
+@media (min-width: 768px)
+{
+    .NavigationMenuButton
+    {
+        display: block;
+    }
+}
+
+
+.FixedHomeLogo
+{
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 60px;
+    background-color: transparent;
+    color: #FFF;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    outline: none;
+    z-index: 10000;
+}
+
+.FixedHomeLogo:focus,
+.FixedHomeLogo:hover
+{
+    background-color: transparent;
+    color: #FFF;
+    text-decoration: none;
+    outline: none;
+    transition: all 0.5s ease;
+}
+
+.navbar-brand
+{
+    margin: 0 auto;
+    padding: 5px;
+    background: #f86030;
+    color: #fff;
+    border-radius: 50%;
+    border: solid 2px #fff;
+    outline: none;
+    text-decoration: none;
+}
+
+.navbar-brand:focus,
+.navbar-brand:hover
+{
+    margin-top: 10px;
+    outline: none;
+    text-decoration: none;
+}
+
+.MAK .navbar-nav .nav-link, .MAK .ThemeColor, .MAK a.ThemeColor
+{
+    color: #FFF;
+}
+
+.CloseMenu
+{
+    display: block;
+    margin: 0 auto;
+    padding: 12px 10px;
+    border: 5px solid #ff6a00;
+    border-radius: 30px;
+    background-color: #072242;
+    color: #FFF;
+    outline: none;
+    transition: all 0.5s ease;
+}
+
+.CloseMenu:focus,
+.CloseMenu:hover
+{
+    background-color: #226cc3;
+    color: #FFF;
+    text-decoration: none;
+    outline: none;
+}
+
+.navbar
+{
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    background-color: #245288;
+    background-color: #002244;
+    color: #FFF;
+    transition: all 0.5s ease;
+}
+
+.navbar a
+{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    color: #FFF;
+    transition: all 0.5s ease;
+}
+
+.navbar a:active,
+.navbar a:focus,
+.navbar a:hover
+{
+    background-color: #3569a7;
+    text-decoration: none;
+    outline: none;
+}
+
+.NavLarge
+{
+    display: block;
+}

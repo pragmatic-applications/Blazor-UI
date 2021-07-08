@@ -1,0 +1,282 @@
+﻿
+body
+{
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 1.01rem;
+    background: #f5f8fc;
+    background: linear-gradient(to bottom, #f5f8fc, #e3ecff 99%) no-repeat;
+    color: #000;
+}
+
+#Body img,
+#Body .FullWidth
+{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+#Body .CenterText
+{
+    text-align: center;
+}
+
+#Body ul,
+#Body ul li,
+#Body ol,
+#Body ol li
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#Body ol li span
+{
+    padding-right: 10px;
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #E5662E;
+}
+
+#Body .HRuleA hr
+{
+    width: 100%;
+    border: 0;
+    border-top: 4px solid #E5662E;
+    border-radius: 40%;
+}
+
+.siteFooter
+{
+    letter-spacing: 1px;
+    font-size: 0.70rem;
+    background: #245288;
+    background-color: #002244;
+    color: white;
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+.siteFooter a
+{
+    display: inline-block;
+    background: transparent;
+    color: #FFF;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.siteFooter a:hover
+{
+    padding: 4px;
+    border-radius: 20px;
+    border: solid 2px #fff;
+}
+
+.Center
+{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.CheckAll
+{
+    padding-left: 42px;
+}
+
+.tint
+{
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    padding-left: 2%;
+    padding-right: 2%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.introBannerMini
+{
+    display: block;
+    background: url('../Images/04.jpg') no-repeat center center;
+}
+
+.experienceTheWorld
+{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    /*background: url('../Images/2.jpg') no-repeat center center;*/
+    background: url('../Images/05.jpg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+}
+
+.CallToActionContainer
+{
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+    background: url('../images/02.jpg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+}
+
+.ChineseTextTheme
+{
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+.ChineseTextDefault
+{
+    display: block;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+@media (min-width: 768px)
+{
+    .CheckAll
+    {
+        padding-left: 80px;
+    }
+}
+
+.pdfFile
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    margin: 0;
+    padding: 0;
+}
+
+.CoursesHeader
+{
+    color: #c10000;
+}
+
+.CourseContainer
+{
+    margin: 5px;
+    padding: 0;
+    min-height: 650px;
+    border-radius: 80px;
+    background-image: linear-gradient(to bottom, #afcbff, #e2ecff);
+    outline: none;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+@media (min-width: 992px)
+{
+        
+    .CourseContainer
+    {
+        margin-bottom: 30px;
+    }
+
+}
+
+.CourseContainer a:hover,
+.CourseContainer a:active,
+.CourseContainer a:focus,
+.CourseContainer:hover,
+.CourseContainer:active,
+.CourseContainer:focus
+{
+    background-image: linear-gradient(to bottom, #97b6f5, #eff4ff);
+    outline: none;
+    text-decoration: none;
+}
+
+.CoursesTextContainer
+{
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+@media (min-width: 480px)
+{
+    .CoursesTextContainer
+    {
+        padding-left: 30px;
+        padding-right: 30px;
+        min-height: 20.5rem;
+    }
+}
+
+.GridItemTextContainer
+{
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.GridItemID
+{
+    padding-left: 10px;
+}
+
+@media (min-width: 480px)
+{
+    .GridItemTextContainer
+    {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        min-height: 28.0rem;
+        min-height: 20.0rem;
+
+    }
+    .GridItemID
+    {
+        padding-left: 30px;
+    }
+}
+
+.FormGroup .form-control
+{
+    color: #000;
+    outline: none;
+}
+
+.FormGroup .form-control:active,
+.FormGroup .form-control:focus
+{
+    outline: none;
+}
+
+.CoursesMaxWidth
+{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1800px;
+}
+
+/*.DataGridContainer.DataGridItem
+{
+    background-image: linear-gradient(to bottom, #e05518, #DEE8FB);
+}*/
+
+.GridImage
+{
+    background-image: linear-gradient(to bottom, #e05518, #DEE8FB);
+}

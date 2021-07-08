@@ -1,0 +1,162 @@
+﻿
+#Body .ImageRadiusBackgroundDefault .photo
+{
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 20px 10px;
+    border-bottom: solid;
+    color: #E5662E;
+    border-radius: 80px;
+}
+
+#Body .PaddingTopSpan span
+{
+    display: inline-block;
+    padding-top: 53px;
+}
+
+.BasicButton,
+.BasicButton:active,
+.PrimaryButton,
+.PrimaryButton:active
+{
+    display: inline-block;
+    width: 160px;
+    width: 6rem;
+    margin: 0 auto;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #f86030;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+    border-color: transparent;
+    outline: none;
+    border: none;
+    transition: all 0.5s ease;
+}
+
+.BasicButton:hover,
+.PrimaryButton:hover
+{
+    background-color: #bb3a11;
+    color: #FFF;
+    outline: none;
+    border-color: transparent;
+    border: none;
+    text-decoration: none;
+}
+
+.BasicButtonWrap
+{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.round,
+.round:active
+{
+    display: block;
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+    border-radius: 100%;
+    background-color: #f86030;
+    background-color: #002244;
+    color: #fff;
+    font-size: 1.2rem;
+    border-color: transparent;
+    outline: none;
+    border: none;
+    transition: all 0.5s ease;
+}
+
+.round:hover
+{
+    background: transparent;
+    color: #FFF;
+    border-color: transparent;
+    outline: none;
+    border: none;
+}
+
+a:active,
+a:hover,
+a:focus
+{
+    outline: none;
+    text-decoration: none;
+}
+
+#Body .ImageRoundDefault img
+{
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+img.img-circle
+{
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+#Body .ImageDropShadow img
+{
+    box-shadow: 0 10px #e05518;
+}
+
+.ImageButtonHome
+{
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
+.top
+{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: transparent;
+    color: #fff;
+    font-size: 2.0rem;
+    padding: 0;
+    border-radius: 50%;
+    outline: none;
+    text-decoration: none;
+    z-index: 99999999;
+}
+
+.top::after
+{
+    content: "\21E7";
+    padding: 3px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-weight: 600;
+    font-size: 1.2em;
+    background: #f86030;
+    background-color: #002244;
+    color: #fff;
+    border-radius: 50%;
+    outline: none;
+    text-decoration: none;
+    z-index: 99999999;
+}
+
+.ButtonDefaultContainer
+{
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 80px;
+}

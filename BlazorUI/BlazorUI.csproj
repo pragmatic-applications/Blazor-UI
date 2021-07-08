@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Version>0.0.0.4</Version>
+        <Authors>Maurice Kelly</Authors>
+        <Company>Pragmatic Applications</Company>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <Description>A .NET 5.0 Blazor Razor Class Library (BRCL) that include Navigation menu, PageContainer, Pagination, Sort, Search, Banner, Footer and other helpful components and classes.
+
+Features used include Blazor cascading values and parameters.</Description>
+        <Copyright>2021 Pragmatic Applications</Copyright>
+        <PackageReleaseNotes>A .NET 5.0 Blazor Razor Class Library (BRCL) that include Navigation menu, PageContainer, Pagination, Sort, Search, Banner, Footer and other helpful components and classes.
+
+Features used include Blazor cascading values and parameters.</PackageReleaseNotes>
+        <RepositoryType>A .NET 5.0 Blazor Razor Class Library (BRCL)</RepositoryType>
+        <PackageTags>.NET 5.0 Blazor Razor Class Library (BRCL)</PackageTags>
+        <RepositoryUrl>https://github.com/pragmatic-applications/BlazorUI</RepositoryUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <SupportedPlatform Include="browser" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Lib_BrowserPlatform" Version="0.0.0.2" />
+        <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
+        <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="5.0.7" />
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Authentication" Version="5.0.7" />
+        <PackageReference Include="Microsoft.AspNetCore.Components.Web.Extensions" Version="5.0.0-preview9.20513.1" />
+        <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.7" />
+        <PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="2.2.0" />
+        <PackageReference Include="Microsoft.Extensions.Http" Version="5.0.0" />
+    </ItemGroup>
+
+</Project>

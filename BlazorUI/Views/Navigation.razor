@@ -1,0 +1,17 @@
+﻿
+<header class="HideOrShow MAK">
+    <div id="close_menu" class="navbar-nav top_nav_container">
+
+        @for(int i = 0; i < this.NavLinks.Count(); i++)
+        {
+            var count = i;
+
+            <div class="nav_link">
+                <NavLink href="@this.NavLinks[count].Route" @onclick="MenuState.CloseMenu">
+                    @this.NavLinks[count].Link
+                </NavLink>
+            </div>
+        }
+
+    </div>
+</header>

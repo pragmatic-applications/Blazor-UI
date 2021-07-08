@@ -1,0 +1,20 @@
+
+div
+{
+    background: url('Images/00.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+p
+{
+    width: 100%;
+    margin: 0 auto;
+    padding: 14px 0;
+   /* background-color: rgba(255, 255, 255, 0.6);
+    color: #000;*/
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #FFF;
+    font-weight: 400;
+    font-size: 1.2rem;
+    letter-spacing: 0.15rem;
+}
